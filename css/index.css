@@ -1,0 +1,497 @@
+.header-both {
+  height: .86rem;
+}
+header {
+  width: 6.86rem;
+  height: .86rem;
+  left: 50%;
+  padding: 0 .32rem;
+  margin-left: -3.75rem;
+  position: fixed;
+  background: #fff;
+}
+header .header {
+  width: 2.4rem;
+  height: .86rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -1.2rem;
+  font-size: .28rem;
+}
+header .header div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 0.6rem;
+  height: .86rem;
+  text-align: center;
+  line-height: .86rem;
+  color: #000000;
+}
+header .header .active {
+  color: #ff5d16 ;
+  border-bottom: 0.08rem solid #ff5d16;
+}
+header .header div:nth-child(2) {
+  margin: 0 .3rem;
+}
+header .header-back {
+  display: inline-block;
+  width: .32rem;
+  height: .86rem;
+  background: url("../img/arrow-left.png") no-repeat 0 center;
+  background-size: .32rem .32rem;
+}
+header .header-r {
+  display: inline-block;
+  width: 1.4rem;
+  height: .86rem;
+}
+header .header-r i {
+  width: .32rem;
+  height: .86rem;
+  display: inline-block;
+  float: right;
+}
+header .header-r i:nth-child(2) {
+  background: url("../img/favorites-filling.png") no-repeat center;
+  background-size: .32rem .32rem;
+  margin-right: 0.44rem;
+}
+header .header-r i:nth-child(1) {
+  background: url("../img/slh.png") no-repeat center;
+  background-size: .32rem .32rem;
+}
+.banner-content {
+  width: 7.5rem;
+  height: 6.15rem;
+}
+.banner-content .banner-img {
+  width: 7.5rem;
+  height: 4.22rem;
+  background: url("../img/banner.png") no-repeat center;
+  background-size: cover;
+}
+.banner-content .banner-title {
+  width: 7.5rem;
+  height: 1.1rem;
+}
+.banner-content .banner-title .banner-title-top {
+  width: 6.86rem;
+  height: 0.65rem;
+  line-height: .65rem;
+  margin: 0 auto;
+}
+.banner-content .banner-title .banner-title-top :nth-child(1) {
+  font-size: .28rem;
+  float: left;
+}
+.banner-content .banner-title .banner-title-top :nth-child(2) {
+  font-size: .2rem;
+  float: right;
+  color: #cccccc;
+}
+.banner-content .banner-title .banner-title-bottom {
+  width: 6.86rem;
+  height: 0.55rem;
+  margin: 0 auto;
+}
+.banner-content .banner-title .banner-title-bottom i {
+  width: .32rem;
+  height: .32rem;
+  display: inline-block;
+  background: url("../img/xin.png") no-repeat 0 center;
+  background-size: .32rem 0.32rem;
+}
+.banner-content .banner-title .banner-title-bottom :nth-child(1) {
+  font-size: .28rem;
+  float: left;
+  color: #ff5d16;
+}
+.banner-content .banner-title .banner-title-bottom :nth-child(2) {
+  font-size: .2rem;
+  float: right;
+  color: #cccccc;
+}
+.banner-content .banner-label {
+  width: 7.5rem;
+  height: .83rem;
+  background: #fffaf8;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 0.025rem solid #cccccc;
+}
+.banner-content .banner-label .label-content {
+  width: 6.86rem;
+  height: .83rem;
+  margin: 0 auto;
+}
+.banner-content .banner-label .label-content div:nth-child(1) i {
+  width: .32rem;
+  height: .83rem;
+  background: url("../img/jc-yuan.png") no-repeat 0 center;
+  background-size: .32rem .32rem;
+}
+.banner-content .banner-label .label-content div:nth-child(2) i {
+  width: .32rem;
+  height: .83rem;
+  background: url("../img/bao.png") no-repeat 0 center;
+  background-size: .32rem .32rem;
+}
+.banner-content .banner-label .label-content div:nth-child(3) i {
+  width: .32rem;
+  height: .83rem;
+  background: url("../img/tui.png") no-repeat 0 center;
+  background-size: .32rem .32rem;
+}
+.banner-content .banner-label .label-content div {
+  width: 1.48rem;
+  height: .83rem;
+  line-height: .83rem;
+  float: left;
+}
+.banner-content .banner-label .label-content div i {
+  display: inline-block;
+  float: left;
+}
+.banner-content .banner-label .label-content span {
+  float: left;
+  display: inline-block;
+  color: #cccccc;
+  margin-left: .08rem;
+}
+.banner-content .banner-label em {
+  float: right;
+  display: inline-block;
+  width: .32rem;
+  height: .83rem;
+  background: url("../img/you.png") no-repeat 0 center;
+  background-size: .32rem .32rem;
+}
+.content-bg-color {
+  margin-bottom: 1.1rem;
+  width: 7.5rem;
+  overflow: hidden;
+}
+.content-bg-color .ticket {
+  width: 6.86rem;
+  height: .88rem;
+  border-top: 0.025rem solid #ccc ;
+  border-bottom: 0.025rem solid #ccc ;
+  margin: .22rem auto;
+  padding: 0 0.32rem;
+}
+.content-bg-color .ticket i {
+  display: inline-block;
+  height: .88rem;
+  width: .64rem;
+  background: url("../img/yhj.png") no-repeat 0 center;
+  background-size: .64rem .64rem;
+  float: left;
+}
+.content-bg-color .ticket p {
+  float: left;
+  width: 4.16rem;
+  height: .88rem;
+  line-height: .88rem;
+  font-size: .2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content-bg-color .ticket em {
+  float: right;
+  display: inline-block;
+  width: .32rem;
+  height: .83rem;
+  background: url("../img/you.png") no-repeat 0 center;
+  background-size: .32rem .32rem;
+}
+.content-bg-color .commit .commit-content {
+  width: 6.86rem;
+  margin: 0 auto ;
+  padding: 0 0 0.28rem 0;
+  background: #fff;
+}
+.content-bg-color .commit .commit-content .commit-title {
+  height: .58rem;
+  width: 100%;
+}
+.content-bg-color .commit .commit-content .commit-title i {
+  display: inline-block;
+  width: .32rem;
+  height: .58rem;
+  background: url("../img/dh.png") no-repeat 0 center;
+  background-size: 0.32rem 0.32rem;
+  float: left;
+}
+.content-bg-color .commit .commit-content .commit-title span {
+  font-size: .22rem;
+  display: inline-block;
+  width: 4rem;
+  height: .58rem;
+  line-height: .58rem;
+  float: left;
+}
+.content-bg-color .commit .commit-content .header-img {
+  width: 100%;
+  height: .86rem;
+}
+.content-bg-color .commit .commit-content .header-img img {
+  float: left;
+  width: .86rem;
+  height: .86rem;
+  border-radius: 50%;
+  margin-right: 0.34rem;
+}
+.content-bg-color .commit .commit-content .header-img .header-img-show {
+  float: left;
+}
+.content-bg-color .commit .commit-content .header-img .header-img-show div {
+  width: 100%;
+  height: 0.43rem;
+  line-height: .43rem;
+}
+.content-bg-color .commit .commit-content .header-img .header-img-show .active {
+  color: #ff5d16;
+}
+.content-bg-color .commit .commit-content .commit-show {
+  width: 6.86rem;
+  padding: .18rem 0;
+}
+.content-bg-color .commit .commit-content .commit-show li {
+  margin-right: .14rem;
+  font-size: .2rem;
+  border-radius: 0.06rem;
+  display: inline-block;
+  padding: .1rem   0.2rem;
+  border: 0.025rem solid #ccc;
+}
+.content-bg-color .commit .commit-content p {
+  width: 100%;
+  height: .24rem;
+  font-size: .24rem;
+}
+.content-bg-color .commit .commit-content .commit-imgs {
+  width: 100%;
+  margin: 0.22rem 0;
+}
+.content-bg-color .commit .commit-content .commit-imgs img {
+  display: inline-block;
+  width: 1.76rem;
+  height: 1.76rem;
+  float: left;
+  margin: 0 0.16rem 0.16rem 0;
+}
+.content-bg-color .commit .commit-content .commit-add-btn {
+  width: 100%;
+  height: .48rem;
+  line-height: .48rem;
+  text-align: center;
+}
+.content-bg-color .commit .commit-content .commit-add-btn a {
+  width: 1.62rem;
+  height: .48rem;
+  line-height: .48rem;
+  border: 0.025rem solid #fa5b13;
+  padding: 0.1rem 0.2rem;
+  border-radius: .06rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fa5b13;
+}
+.content-bg-color .commit .store-content .store-content-box {
+  width: 100%;
+  border-bottom: .025rem solid #ccc;
+}
+.content-bg-color .commit .store-content .store-content-box .store-box-name {
+  width: 6.86rem;
+  height: 1.52rem;
+  margin: 0 auto;
+  position: relative;
+}
+.content-bg-color .commit .store-content .store-content-box .store-box-name em {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  top: 50%;
+  margin-top: -0.415rem;
+  width: .32rem;
+  height: .83rem;
+  background: url("../img/you.png") no-repeat 0 center;
+  background-size: .32rem .32rem;
+}
+.content-bg-color .commit .store-content .store-content-box .store-box-name img {
+  width: .84rem;
+  height: .84rem;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  top: 50%;
+  margin-top: -0.42rem;
+}
+.content-bg-color .commit .store-content .store-content-box .store-box-name ul li {
+  margin-left: 1.16rem;
+}
+.content-bg-color .commit .store-content .store-content-box .store-box-name ul li:nth-child(1) {
+  width: 4.3rem;
+  height: .86rem;
+  line-height: .86rem;
+  font-size: .32rem;
+}
+.content-bg-color .commit .store-content .store-content-box .store-box-name ul li:nth-child(1) .color {
+  color: #fa5b13;
+}
+.content-bg-color .commit .store-content .store-content-box .store-box-name ul li:nth-child(2) {
+  width: 4.3rem;
+  height: .66rem;
+  background: #fff;
+}
+.content-bg-color .commit .store-content .store-content-box .store-box-name ul li:nth-child(2) .icon {
+  color: #fa5b13;
+  display: inline-block;
+  border: 0.025rem solid #fa5b13;
+  font-size: .2rem;
+  padding: 0.001rem 0.12rem;
+  border-radius: 0.06rem;
+}
+.content-bg-color .commit .store-content .store-content-box .store-content-adds {
+  width: 6.86rem;
+  height: .9rem;
+  margin: 0 auto;
+}
+.content-bg-color .commit .store-content .store-content-box .store-content-adds i {
+  display: inline-block;
+  width: .32rem;
+  height: .9rem;
+  background: url("../img/dizhi1.png") no-repeat 0 center;
+  background-size: 0.32rem 0.32rem;
+  float: left;
+}
+.content-bg-color .commit .store-content .store-content-box .store-content-adds span {
+  display: inline-block;
+  font-size: .28rem;
+  height: .9rem;
+  line-height: .9rem;
+  margin-left: .26rem;
+  color: #ccc;
+}
+.content-bg-color .commit .store-content .store-content-box .store-content-time {
+  width: 6.86rem;
+  height: .9rem;
+  margin: 0 auto;
+}
+.content-bg-color .commit .store-content .store-content-box .store-content-time i {
+  display: inline-block;
+  width: .32rem;
+  height: .9rem;
+  background: url("../img/shijian.png") no-repeat 0 center;
+  background-size: 0.32rem 0.32rem;
+  float: left;
+}
+.content-bg-color .commit .store-content .store-content-box .store-content-time span {
+  display: inline-block;
+  font-size: .28rem;
+  height: .9rem;
+  line-height: .9rem;
+  margin-left: .26rem;
+  color: #ccc;
+}
+.content-bg-color .commit .store-content .store-content-box .store-content-time .time em {
+  float: right;
+  display: inline-block;
+  width: .32rem;
+  height: .9rem;
+  background: url("../img/you.png") no-repeat 0 center;
+  background-size: .32rem .32rem;
+}
+.content-bg-color .commit .store-content .store-content-box .store-content-time .time div {
+  width: 1.8rem;
+  height: .9rem;
+  font-size: .28rem;
+  float: right;
+  line-height: .9rem;
+  text-align: right;
+  margin-right: .15rem;
+  color: #fa5b13;
+}
+.content-bg-color .commit .store-content .go-look {
+  width: 7.5rem;
+  height: .86rem;
+  line-height: .86rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+.content-bg-color .commit .store-content .go-look span {
+  color: #cccccc;
+  font-size: .28rem;
+}
+.content-bg-color .commit .store-content .go-look em {
+  margin-left: 0.2rem;
+  display: inline-block;
+  width: .32rem;
+  height: .86rem;
+  background: url("../img/xia.png") no-repeat 0 center;
+  background-size: .32rem .32rem;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 7.5rem;
+  height: 1.1rem;
+  background: #fff;
+  border-top: .025rem solid #cccccc ;
+}
+footer div {
+  height: 1.1rem;
+  display: flex;
+  justify-content: center;
+  line-height: 1.1rem;
+  float: left;
+  box-sizing: border-box;
+}
+footer div:nth-child(1),
+footer div:nth-child(2),
+footer div:nth-child(3) {
+  width: 1.65rem;
+}
+footer div:nth-child(2) {
+  border-left: .025rem solid #cccccc ;
+  border-right: .025rem solid #cccccc ;
+}
+footer div:nth-child(4) {
+  font-size: .32rem;
+  color: #fff;
+  width: 2.55rem;
+  background: #ff5d16;
+}
+footer .dh {
+  display: inline-block;
+  width: .32rem;
+  height: 1.1rem;
+  background: url("../img/dhj.png") no-repeat 0 center;
+  background-size: .32rem .32rem;
+}
+footer .dx {
+  display: inline-block;
+  width: .32rem;
+  height: 1.1rem;
+  background: url("../img/dx.png") no-repeat 0 center;
+  background-size: .32rem .32rem;
+}
+footer .jt {
+  display: inline-block;
+  width: .32rem;
+  height: 1.1rem;
+  background: url("../img/dh.png") no-repeat 0 center;
+  background-size: .32rem .32rem;
+}
+footer span {
+  font-size: .28rem;
+  margin-left: .12rem;
+}
